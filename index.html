@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivius - Bar e Gastronomia</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <section class="inicio">
+            <div class="endereco">
+                <p>Rua Defilna, 196 <br> Vila Madalena</p>
+            </div>
+            <div class="contatos">
+                <p>(11) 4680-2967 <br> ola@oliviobar.com.br</p>
+            </div>
+            <div class="logo"><img src="imagens/logo-olivius.png" alt="Logotipo"><br></div>
+        </section>
+            <nav>
+                <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Reservas</a>
+            <a href="#">Cardápio</a>
+            <a href="#">Galeria</a>
+            <a href="#">Contatos</a>
+        </nav>
+    </header>
+    <main>
+        <section class="container-sobre">
+            <div class="texto-sobre">
+                <h1>Sobre</h1>
+                <hr>
+                <p>Fundado no ano de 2002, nosso espaço traz um misto entre elegancia e casualidade, fazendo um ambiente de conforto para você, seus amigos e familiares terem momentos inesqueciveis.</p>
+                <p>Experimente nossos drinks assinados pelo mundialmente reconhecido barista frances Matheus Freitas.</p>
+                <hr>
+                <a href="#">SAIBA MAIS</a>
+            </div>
+            <div class="filho-sobre">
+
+            </div>
+       </section>
+       <section class="img-mesa">
+
+       </section>
+       <section class="cardapio">
+            <div class="text-cardapio">
+                <H1>CARDAPIO</H1>
+                <hr>
+                <p>O que agrada o seu paladar?
+                Massas? Frutos do Mar? Cortes Nobres? Abra o nosso cardápio e se encante com nossos pratos. Nosso cardapio é assinado pela chef argentina Paola Caroselia</p>
+                <hr>
+
+                <a href="#">CARDÁPIO</a>
+            </div>
+            <div class="img-cardapio">
+        
+            </div>
+
+       </section>
+       <section class="galeria">
+           
+            <h1>GALERIA</h1>
+            <p>Conheça mais um pouco do nosso ambiente através de registro de alguns dos nosso clientes</p>
+           <a href="#">VER FOTOS</a>
+
+       </section>
+       <section class="contatos-final">
+         <div class="endereco-footer">
+             <h1>Endereço</h1>
+             <p>Rua Delfina, 196 - Vila Madalena</p>
+             <p>Como Chegar</p>
+         </div>
+         <hr>
+         <div class="horario-footer">
+             <h1>Horários</h1>
+             <p>Consulte em nossas redes sociais.</p>
+         </div>
+         <hr>
+         <DIV class="atendimento">
+            <h1>Atendimento</h1>
+            <p>Telefone</p>
+            <p>ola@teste.com.br</p>
+         </DIV>
+        </section>
+        </main>
+         <footer>
+            <p>Site criado por Matheus Freitas</p>
+    </footer>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'black'){
+               itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

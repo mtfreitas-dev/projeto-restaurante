@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    min-height: 100vh;
+    background: brown url(../imagens/fundo001.jpg);
+    background-size: cover;
+    background-position: center top;
+}
+
+
+
+section.inicio{
+    padding: 10px;
+}
+
+div.endereco{
+    float: left;
+    color: white;
+}
+
+div.contatos{
+    float: right;
+    color: white;
+}
+
+div.endereco :hover{
+    color: darkred;
+}
+
+div.contatos :hover{
+    color: darkred;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: normal ;
+    padding: 10px;
+}
+
+nav a:hover{
+    color: darkred;
+    border-radius: 10px;
+    transition: 0.5s;
+    
+}
+
+body, html{
+    width: 100vw;
+
+}
+
+main{
+    width: 100vw;
+}
+
+section.sobre{
+    display: block;
+    background-color: white;
+    max-height: 100vh;
+}
+
+div.texto-sobre{
+    float: left;
+    width: 30%;
+    font-size: 1em;
+    height: 100%;
+}
+
+div.texto-sobre h1{
+    text-align: left;
+    font-size: 3em;
+    padding: 10px;
+
+}
+
+div.texto-sobre p {
+    font-size: 1.3em;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+div.texto-sobre a {
+    display: block;
+    padding: 20px;
+    margin: 20px;
+    width: 100px;
+    text-decoration: none;
+    color: darkgrey;
+    border: 2px solid darkgrey;
+}
+
+div.texto-sobre a:hover{
+    background-color: darkgrey;
+    color: white;
+}
+
+div.bar{
+    top: 20vh;
+    left: 40vw;
+    transform: translate(-60%, -20%);
+    float: right;
+    width: 70%;
+    height: 100%;
+}
+
+#ibar{
+    top: 20%;
+    left: 20%;
+}
+
+section.img-mesa{
+    height: 100vh;
+    background: gold url(../imagens/fundo002.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+section.cardapio{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+section.cardapio div.text-cardapio{
+    float: left;
+    width: 30%;
+    font-size: 1em;
+    padding: 60px;
+    height: 100%;
+}
+
+div.text-cardapio h1{
+    text-align: left;
+    font-size: 3em;
+    padding: 10px;
+}
+
+div.text-cardapio p { 
+    font-size: 1.3em;
+    padding: 10px;
+    margin: 10px;
+}
+
+div.text-cardapio a {
+    display: block;
+    padding: 20px;
+    margin: 20px;
+    width: 80px;
+    text-decoration: none;
+    color: darkgrey;
+    border: 2px solid darkgrey;
+}
+
+div.text-cardapio a:hover{
+    background-color: darkgrey;
+    color: white;
+}
+
+section.cardapio div.img-cardapio{
+    top: 20vh;
+    left: 50%;
+    float: right;
+    width: 50%;
+}
+
+section.galeria{
+    height: 80vh;
+    width: 100vw;
+    background: brown url(../imagens/fundo-galeria.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+
+    text-align: center;
+}
+
+section.galeria h1{   
+    color: white;
+    font-size: 3em;
+    padding: 10px;
+}
+
+section.galeria p { 
+    color: white;
+    font-size: 1.3em;
+    padding: 10px;
+    margin: 10px;
+}
+
+section.galeria a {
+        display: block;
+        padding: 20px;
+        margin: auto;
+        width: 80px;
+        text-decoration: none;
+        color: darkgrey;
+        border: 2px solid darkgrey;
+
+    }
+
+footer{
+    height: 40vh;
+}
+
