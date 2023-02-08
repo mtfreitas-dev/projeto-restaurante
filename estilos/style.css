@@ -196,10 +196,11 @@ section.galeria a:hover{
 }
 
 section.contatos-final{
+    padding: 10px;
     display: flex;
     flex-direction: column;
     max-width: 100vw;
-    height: 55vh;
+    height: 40vh;
     line-height: 50px;
     text-align: center;
 }
@@ -242,7 +243,7 @@ footer{
     margin: 0px;
     background-color: black;
     color: white;
-    height: 10vh;
+    height: 08vh;
 }
 
 footer p{
