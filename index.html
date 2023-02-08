@@ -10,17 +10,19 @@
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body onresize="mudouTamanho()">
-
-    <nav>
-        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
-    <a href="#">Home</a>
-    <a href="#">Sobre</a>
-    <a href="#">Reservas</a>
-    <a href="#">Cardápio</a>
-    <a href="#">Galeria</a>
-    <a href="#">Contatos</a>
-</nav>
     <header>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Reservas</a></li>
+                <li><a href="#">Cardápio</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+            
+        </menu>
         <section class="inicio">
             <div class="endereco">
                 <p>Rua Defilna, 196 <br> Vila Madalena</p>
@@ -95,12 +97,14 @@
     </footer>
     <script>
         function clickMenu() {
-            if (itens.style.display == 'black'){
-               itens.style.display = 'none'
+           if (itens.style.display =='block') {
+            itens.style.display = 'none'
             } else {
                 itens.style.display = 'block'
             }
         }
+
+        
     </script>
 </body>
 </html>

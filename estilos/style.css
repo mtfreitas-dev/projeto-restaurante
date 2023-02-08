@@ -43,11 +43,30 @@ div.logo{
     text-align: center;
 }
 
-nav{
-    text-align: center;
+#itens{
+    display: none;
+    text-align: right;
+    transition: all 0.5s;
 }
 
-nav a {
+i#burguer{
+    text-align: right;
+    display: block;
+    padding: 20px;
+    color: white;
+    font-size: 2.5em;
+    cursor: pointer;
+}
+
+i#burguer:hover{
+    color: brown;
+}
+
+li{
+    padding: 10px;
+}
+
+a {  
     color: white;
     text-decoration: none;
     font-size: 1.2em;
@@ -55,7 +74,7 @@ nav a {
     padding: 10px;
 }
 
-nav a:hover{
+menu a:hover{
     color: darkred;
     border-radius: 10px;
     transition: 0.5s;
