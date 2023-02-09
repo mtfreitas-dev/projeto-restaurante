@@ -100,7 +100,7 @@ div.texto-sobre a {
     display: block;
     margin-top: 30px;
     padding: 10px;
-    width: 120px;
+    width: 140px;
     text-decoration: none;
     color: black;
     border: 2px solid darkgrey;
@@ -142,7 +142,7 @@ div.text-cardapio a {
     display: block;
     margin-top: 30px;
     padding: 10px;
-    width: 108px;
+    width: 120px;
     text-decoration: none;
     color: black;
     border: 2px solid darkgrey;
@@ -196,11 +196,10 @@ section.galeria a:hover{
 }
 
 section.contatos-final{
+    margin: 20px;
     padding: 10px;
-    display: flex;
-    flex-direction: column;
     max-width: 100vw;
-    height: 40vh;
+    height: 35vh;
     line-height: 50px;
     text-align: center;
 }
