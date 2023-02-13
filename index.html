@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
+
 </head>
 <body onresize="mudouTamanho()">
     <header>
@@ -97,14 +98,12 @@
     </footer>
     <script>
         function clickMenu() {
-           if (itens.style.display =='block') {
-            itens.style.display = 'none'
-            } else {
-                itens.style.display = 'block'
-            }
-        }
-
-        
+    if (itens.style.display =='block') {
+     itens.style.visibility = 'hidden'
+     } else {
+         itens.style.visibility = 'visible'
+     }
+ }
     </script>
 </body>
 </html>

@@ -74,6 +74,10 @@ a {
     padding: 10px;
 }
 
+menu{
+    display: block;
+    visibility: hidden;
+}
 menu a:hover{
     color: darkred;
     border-radius: 10px;
