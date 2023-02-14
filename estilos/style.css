@@ -166,7 +166,7 @@ div.img-cardapio{
 section.galeria{
     position: relative;
     height: 70vh;
-    background: brown url(../imagens/fundo-galeria.jpg) no-repeat top center;
+    background: brown url(../imagens/img-galeria-01.jpg) no-repeat center center;
     background-size: cover;
     color: white;
     text-align: center;
