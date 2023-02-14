@@ -117,7 +117,7 @@ div.texto-sobre a:hover{
     background-color: darkgrey;
 }
 
-div.filho-sobre{
+div.containr-img-sobre{
     display: none;
 }
 
@@ -159,7 +159,7 @@ div.text-cardapio a:hover{
     color: white;
 }
 
-div.img-cardapio{
+div.container-img-cardapio{
     display: none;
 }
 
