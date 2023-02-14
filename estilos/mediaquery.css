@@ -1,18 +1,52 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) {
+    div.endereco {
+        display: block;
+    }
+
+    div.contatos{
+        display: block;
+    }
+    
+    div.logo{
+        padding: 50px;
+        margin: auto;
+    }
+
     i#burguer{
     display: none;
    }
-
    #itens{
     display: block;
     text-align: center;
    }
-
    li{
     display:  inline;
    }
+
+   div.texto-sobre{
+    width: 50%;
+    text-align: justify;
+   }
+
+   div.texto-sobre h1{
+    font-size: 2em;
+    padding-bottom: 20px;
+   }
+
+   div.filho-sobre{
+    margin: auto;
+    display: block;
+    width: 50%;
+    padding: 40px;
+   }
+
+   section.img-mesa{
+    background-attachment: fixed;
+   }
+
+
 }
 
 @media screen and (min-width: 1200px) {
