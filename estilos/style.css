@@ -202,11 +202,27 @@ section.galeria a:hover{
     color: white;
 }
 
-section.contatos-final{
-    max-width: 100vw;
-    height: 60vh;
-    line-height: 50px;
+section.endereco{
+    height: 30vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+}
+
+div#localizacao{
+    margin: auto;
     text-align: center;
+    width: 50%;
+    float: left;
+    line-height: -20px;
+}
+
+div#contato{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    float: right;
 }
 
 footer{
