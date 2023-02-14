@@ -8,22 +8,12 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
 
 </head>
 <body onresize="mudouTamanho()">
     <header>
-        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
-        <menu id="itens">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Reservas</a></li>
-                <li><a href="#">Cardápio</a></li>
-                <li><a href="#">Galeria</a></li>
-                <li><a href="#">Contatos</a></li>
-            </ul>
-            
-        </menu>
+
         <section class="inicio">
             <div class="endereco">
                 <p>Rua Defilna, 196 <br> Vila Madalena</p>
@@ -32,6 +22,17 @@
                 <p>(11) 4680-2967 <br> ola@oliviobar.com.br</p>
             </div>
             <div class="logo"><img src="imagens/logo-olivius.png" alt="Logotipo"><br></div>
+            <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+            <menu id="itens">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Reservas</a></li>
+                    <li><a href="#">Cardápio</a></li>
+                    <li><a href="#">Galeria</a></li>
+                    <li><a href="#">Contatos</a></li>
+                </ul>
+            </menu>
         </section>
 
     </header>
@@ -72,36 +73,17 @@
             <h1>GALERIA</h1>
             <p>Conheça mais um pouco do nosso ambiente através de registro de alguns dos nosso clientes</p>
            <a href="#">VER FOTOS</a>
-
        </section>
-       <section class="contatos-final">
-         <div class="endereco-footer">
-             <h1>Endereço</h1>
-             <p>Rua Delfina, 196 - Vila Madalena</p>
-             <p>Como Chegar</p>
-         </div>
-         <hr>
-         <div class="horario-footer">
-             <h1>Horários</h1>
-             <p>Consulte em nossas redes sociais.</p>
-         </div>
-         <hr>
-         <DIV class="atendimento">
-            <h1>Atendimento</h1>
-            <p>Telefone</p>
-            <p>ola@teste.com.br</p>
-         </DIV>
-        </section>
         </main>
          <footer>
-            <p>Site criado por Matheus Freitas</p>
+            <p>Site criado por Matheus Freitas &copy;</p>
     </footer>
     <script>
         function clickMenu() {
-    if (itens.style.display =='block') {
-     itens.style.visibility = 'hidden'
+    if (itens.style.display =='none') {
+        itens.style.display = 'block'
      } else {
-         itens.style.visibility = 'visible'
+         itens.style.display = 'none'
      }
  }
     </script>

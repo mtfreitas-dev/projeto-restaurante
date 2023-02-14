@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    i#burguer{
+    display: none;
+   }
+
+   #itens{
+    display: block;
+    text-align: center;
+   }
+
+   li{
+    display:  inline;
+   }
+}
+
+@media screen and (min-width: 1200px) {
+    section.img-mesa{
+        background-attachment: fixed;
+    }
+
+    i#burguer{
+        display: none;
+       }
+    
+       #itens{
+        display: block;
+        text-align: center;
+       }
+
+       li{
+        display:  inline;
+       }
+}

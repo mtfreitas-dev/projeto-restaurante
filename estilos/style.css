@@ -50,7 +50,7 @@ div.logo{
 }
 
 i#burguer{
-    text-align: right;
+    text-align: center;
     display: block;
     padding: 20px;
     color: white;
@@ -64,6 +64,7 @@ i#burguer:hover{
 
 li{
     padding: 10px;
+    text-align: center;
 }
 
 a {  
@@ -76,15 +77,14 @@ a {
 
 menu{
     display: block;
-    visibility: hidden;
 }
+
 menu a:hover{
     color: darkred;
     border-radius: 10px;
     transition: 0.5s;
     
 }
-
 section.container-sobre{
     display: flex;
     flex-direction: row;
@@ -200,58 +200,21 @@ section.galeria a:hover{
 }
 
 section.contatos-final{
-    margin: 20px;
-    padding: 10px;
     max-width: 100vw;
-    height: 35vh;
+    height: 60vh;
     line-height: 50px;
     text-align: center;
 }
 
-div.endereco-footer{
-    padding: 20px;
-    line-height: 20px;
-
-}
-div.endereco-footer > h1{
-    display: block;
-    margin: 10px;
-}
-
-div.endereco-footer p {
-    display: block;
-}
-
-div.horario-footer{
-    padding: 20px;
-    line-height: 20px;
-}
-
-div.horario-footer p {
-    display: block;
-    margin: 10px;
-}
-
-div.atendimento{
-    padding: 20px;
-    line-height: 20px;
-}
-
-    div.atendimento p{
-        display: block;
-        margin: 10px;
-    }
-
 footer{
-    margin: 0px;
-    background-color: black;
-    color: white;
-    height: 08vh;
+    background-color: white;
+    color: rgb(78, 78, 78);
+    height: 05vh;
 }
 
 footer p{
     display: block;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     margin: auto;
 }
